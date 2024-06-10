@@ -53,7 +53,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TEAMPURVI/PURVI_MUSIC",
+    "https://github.com/masoombalak88/DHPR",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -67,8 +67,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Purvi_UPdates")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/purvi_support")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FONT_CHANNEL_01")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Exampurrs")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
