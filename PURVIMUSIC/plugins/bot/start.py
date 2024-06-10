@@ -28,7 +28,7 @@ from strings import get_string
 
 #--------------------------
 
-NEXI_VID = [
+MISHI = [
 "https://telegra.ph/file/88ad00ec16e231a238907.jpg",
 "https://telegra.ph/file/3c20ab1c3eb882d9a479b.jpg",
 "https://telegra.ph/file/4647ee70cefeae2d0e2d2.jpg",
@@ -49,8 +49,8 @@ async def start_pm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
-            return await message.reply_video(
-                random.choice(NEXI_VID),
+            return await message.reply_photo(
+                random.choice(MISHI),
                 caption=_["help_1"].format(config.SUPPORT_CHAT),
                 reply_markup=keyboard,
             )
