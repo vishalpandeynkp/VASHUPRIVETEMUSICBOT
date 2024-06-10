@@ -53,15 +53,15 @@ async def sudoers_list(client, message: Message):
     keyboard = [[InlineKeyboardButton("๏ ᴠɪᴇᴡ sᴜᴅᴏʟɪsᴛ ๏", callback_data="check_sudo_list")]]
     reply_markups = InlineKeyboardMarkup(keyboard)
   
-    #await message.reply_photo(photo="https://telegra.ph/file/da2781653a597f5cbf31f.mp4", caption="**» ᴄʜᴇᴄᴋ sᴜᴅᴏ ʟɪsᴛ ʙʏ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ.**\n\n**» ɴᴏᴛᴇ:**  ᴏɴʟʏ sᴜᴅᴏ ᴜsᴇʀs ᴄᴀɴ ᴠɪᴇᴡ. ", reply_markup=reply_markups)
-    await message.reply_video(video="https://telegra.ph/file/da2781653a597f5cbf31f.mp4", caption="**» ᴄʜᴇᴄᴋ sᴜᴅᴏ ʟɪsᴛ ʙʏ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ.**\n\n**» ɴᴏᴛᴇ:**  ᴏɴʟʏ sᴜᴅᴏ ᴜsᴇʀs ᴄᴀɴ ᴠɪᴇᴡ. ", reply_markup=reply_markups)
+    #await message.reply_photo(photo="https://telegra.ph/file/d4b82210a6c2aa6f5c327.jpg", caption="**» ᴄʜᴇᴄᴋ sᴜᴅᴏ ʟɪsᴛ ʙʏ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ.**\n\n**» ɴᴏᴛᴇ:**  ᴏɴʟʏ sᴜᴅᴏ ᴜsᴇʀs ᴄᴀɴ ᴠɪᴇᴡ. ", reply_markup=reply_markups)
+    await message.reply_video(video="https://telegra.ph/file/4ec55c815a79f2d283fa2.mp4", caption="**» ᴄʜᴇᴄᴋ sᴜᴅᴏ ʟɪsᴛ ʙʏ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ.**\n\n**» ɴᴏᴛᴇ:**  ᴏɴʟʏ sᴜᴅᴏ ᴜsᴇʀs ᴄᴀɴ ᴠɪᴇᴡ. ", reply_markup=reply_markups)
     
 
 @app.on_callback_query(filters.regex("^check_sudo_list$"))
 async def check_sudo_list(client, callback_query: CallbackQuery):
     keyboard = []
     if callback_query.from_user.id not in SUDOERS:
-        return await callback_query.answer("𝐒𝐮𝐝𝐨 𝐋𝐢𝐬𝐭 𝐊 𝐁𝐚𝐝𝐥𝐞 𝐑𝐚𝐮𝐬𝐡𝐚𝐧 𝐊𝐚 𝐋𝐮𝐧𝐝 𝐋𝐞 𝐋𝐞🖕😎😂", show_alert=True)
+        return await callback_query.answer("𝐒𝐮𝐝𝐨 𝐋𝐢𝐬𝐭 𝐊 𝐁𝐚𝐝𝐥𝐞 𝐋𝐮𝐧𝐝 𝐋𝐞 𝐋𝐞🖕😎😂", show_alert=True)
     else:
         user = await app.get_users(OWNER_ID)
 
