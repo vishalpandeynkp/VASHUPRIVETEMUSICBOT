@@ -14,7 +14,7 @@ API_HASH = getenv("API_HASH")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","ur_alpha_baby")
+OWNER_USERNAME = getenv("OWNER_USERNAME","")
 # --------------------------------------------------------
 BOT_USERNAME = getenv("BOT_USERNAME")
 # --------------------------------------------------------
@@ -38,7 +38,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID", -1002141133985))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7100014498))
+OWNER_ID = int(getenv("OWNER_ID", 7147100550))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -82,7 +82,7 @@ SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Exampurrs")
 # --------------------------------------------------------------------------------
 # --------------------------------------------------------------------------------
 # --------------------------------------------------------------------------------
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "9000"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", "9999999"))
 SONG_DOWNLOAD_DURATION_LIMIT = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "9999999"))
@@ -141,15 +141,15 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/eb31c20889c5fca9e153f.jpg, https://telegra.ph/file/62a4a5c93f78df95a7d61.jpg, https://telegra.ph/file/af1b9fb2c83194a37c44d.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/9e2e83ad4bcd814a538c5.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/e778c93e89fdb388b214b.mp4"
+    "PING_IMG_URL", "https://telegra.ph/file/c8183c9f6573f7eb799d2.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/e778c93e89fdb388b214b.mp4"
-STATS_IMG_URL = "https://telegra.ph/file/e778c93e89fdb388b214b.mp4"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/bbae2c50b58056ecc4df7.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/e575ae40d6635250974e1.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/7795e58425337d0455e95.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/f0d0487c28bce9887698c.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/d2081243af7c1d7578b7b.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/d2081243af7c1d7578b7b.jpg"
 STREAM_IMG_URL = "https://telegra.ph/file/03efec694e41e891b29dc.jpg"
 SOUNCLOUD_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
 YOUTUBE_IMG_URL = "https://telegra.ph/file/4dc854f961cd3ce46899b.jpg"
