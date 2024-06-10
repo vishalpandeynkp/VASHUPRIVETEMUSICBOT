@@ -55,7 +55,7 @@ InlineKeyboardButton("🅓🅗🅟🅡", url=f"https://github.com/Deepking88/DHP
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://telegra.ph/file/1aab3e5edf0611a7ef4cb.jpg",
+        photo="https://telegra.ph/file/1d2c51b0100039270cc8c.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
