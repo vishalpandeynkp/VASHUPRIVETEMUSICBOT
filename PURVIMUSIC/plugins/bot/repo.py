@@ -7,7 +7,7 @@ import httpx
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 start_txt = """**
-✪ ωεℓᴄσмє fσʀ 𝙳𝙷𝙿𝚁 ʀєρσѕ ✪
+✪ ωεℓᴄσмє fσʀ 🅓🅗🅟🅡 ʀєρσѕ ✪
  
  ➲ ᴀʟʟ ʀᴇᴘᴏ ᴇᴀsɪʟʏ ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴇʀʀᴏʀ ✰
  
@@ -32,14 +32,30 @@ async def start(_, msg):
           InlineKeyboardButton("𝗔𝗗𝗗 𝗠𝗘", url=f"https://t.me/Heeer_music_bot?startgroup=true")
         ],
         [
-          InlineKeyboardButton("𝗛𝗘𝗟𝗣", url="https://t.me/exampurrs"),
+          InlineKeyboardButton("𝗛𝗘𝗟𝗣", url="https://t.me/FONT_CHANNEL_01"),
           InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/OWNER_DHPR"),
-        ],
+          ],
+               [
+                InlineKeyboardButton("🅓🅗🅟🅡", url=f"https://github.com/Deepking88/DHPROP"),
+
+],
+[
+              InlineKeyboardButton("🅓🅗🅟🅡", url=f"https://github.com/Deepking88/DHPROP"),
+              InlineKeyboardButton("︎🅓🅗🅟🅡", url=f"https://github.com/Deepking88/DHPROP"),
+              ],
+              [
+              InlineKeyboardButton("🅓🅗🅟🅡", url=f"https://github.com/Deepking88/DHPROP"),
+InlineKeyboardButton("🅓🅗🅟🅡", url=f"https://github.com/Deepking88/DHPROP"),
+],
+[
+InlineKeyboardButton("🅓🅗🅟🅡", url=f"https://github.com/Deepking88/DHPROP"),
+InlineKeyboardButton("🅓🅗🅟🅡", url=f"https://github.com/Deepking88/DHPROP"),
+    ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://telegra.ph/file/75680a4434ca9ea19ad2f.jpg",
+        photo="https://telegra.ph/file/1aab3e5edf0611a7ef4cb.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
@@ -52,7 +68,7 @@ async def start(_, msg):
 @capture_err
 async def repo(_, message):
     async with httpx.AsyncClient() as client:
-        response = await client.get("pta nhi ")
+        response = await client.get("https://github.com/Deepking88/DHPROP")
     
     if response.status_code == 200:
         users = response.json()
@@ -62,12 +78,11 @@ async def repo(_, message):
             list_of_users += f"{count}. [{user['login']}]({user['html_url']})\n"
             count += 1
 
-        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](hehehe) | [𝖦𝖱𝖮𝖴𝖯](https://t.me/exampurrs)
+        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://github.com/Deepking88/DHPROP) | [𝖦𝖱𝖮𝖴𝖯](https://t.me/exampurrs)
 | 𝖢𝖮𝖭𝖳𝖱𝖨𝖡𝖴𝖳𝖮𝖱𝖲 |
 ----------------
 {list_of_users}"""
         await app.send_message(message.chat.id, text=text, disable_web_page_preview=True)
     else:
         await app.send_message(message.chat.id, text="Failed to fetch contributors.")
-
 
