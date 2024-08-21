@@ -16,7 +16,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "Heeer_music_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Khwahish_Music_bot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME")
 # ---------------------------------------------------------
@@ -35,10 +35,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1001909498527))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002160101510))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 2081040115))
+OWNER_ID = int(getenv("OWNER_ID", 6641988750))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -67,8 +67,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/O_P_Hacker")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Hacker_Fed_apeal")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Aaru_Khwahish_Music")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+PzMr8OJgRfU3MzBl)
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -146,16 +146,16 @@ START_IMG_URL = getenv(
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://telegra.ph/file/c8183c9f6573f7eb799d2.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/7795e58425337d0455e95.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/f0d0487c28bce9887698c.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/d2081243af7c1d7578b7b.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/d2081243af7c1d7578b7b.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/03efec694e41e891b29dc.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/4dc854f961cd3ce46899b.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/6c741a6bc1e1663ac96fc.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/6c741a6bc1e1663ac96fc.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/12fc05e7539943c82277c.jpg"
+STATS_IMG_URL = "https://graph.org/file/12fc05e7539943c82277c.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/12fc05e7539943c82277c.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/12fc05e7539943c82277c.jpg"
+STREAM_IMG_URL = "https://graph.org/file/12fc05e7539943c82277c.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/12fc05e7539943c82277c.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/12fc05e7539943c82277c.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/12fc05e7539943c82277c.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/12fc05e7539943c82277c.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/12fc05e7539943c82277c.jpg"
 
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
